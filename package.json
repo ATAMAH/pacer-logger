@@ -1,0 +1,18 @@
+{
+  "name": "pacer-logger",
+  "version": "1.0.0",
+  "description": "Getting data from mypacer.com and logging it to google sheet",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@googleapis/sheets": "^10.0.1",
+    "axios": "^1.9.0",
+    "googleapis": "^150.0.1"
+  }
+}
